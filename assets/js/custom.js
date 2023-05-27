@@ -55,6 +55,7 @@ $(function(){
       });
 })( jQuery );
 
+//Slide ảnh
 $(window).load(function () {
     $('#slider').nivoSlider({
         effect:'random',
