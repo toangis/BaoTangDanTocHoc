@@ -1,14 +1,16 @@
 {% extends 'layouts/child.volt' %}
 {% block content %}
     {% set leng = items | length %}
-    <div class="section-wrapper" data-scroll-section>
+    <div class="section-wrapper">
         {{ partial('partials/navbar') }}
         <!-- end navbar -->
         <div id="wrapper">
+            <div id="treeMenu">
+                <h4>{{ category_title | getAttribute(language) }}</h4>
+                <p>{{ render_widget('breadcrumb',['id':category_id[0]],['viewsDir': widgets_volt,'view':'breadcrumb-1']) }}</p>
+            </div>
             <div class="slider-wrapper theme-default">
                 <div id="slider" class="nivoSlider">
-                    <h3>{{ category_title | getAttribute(language) }}</h3>
-                    <p>{{ render_widget('breadcrumb',['id':category_id[0]],['viewsDir': widgets_volt,'view':'breadcrumb-1']) }}</p>
                     <img src="{{theme_path}}/assets/images/bao-tang-dan-toc-hoc-crop-1651584320570.png" alt="" data-transition="slideInLeft" />
                     <img src="{{theme_path}}/assets/images/BaoTangDanTocHoc_foody-mobile-2.png"  alt="" data-transition="slideInLeft"/>
                     <img src="{{theme_path}}/assets/images/bao-tang-dan-toc-hoc-crop-1651584320570.png"  alt="" data-transition="slideInLeft" />
