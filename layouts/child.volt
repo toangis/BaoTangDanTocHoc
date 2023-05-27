@@ -43,7 +43,7 @@
 <body>
 {{ partial('partials/preloader') }}
 
-<div class="smooth-scroll">
+<div class="smooth-scroll1">
     {% block content %}
 
     {% endblock %}
