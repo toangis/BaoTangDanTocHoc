@@ -15,7 +15,7 @@
                     <div id="slider" class="nivoSlider">
                         <img src="{{theme_path}}/assets/images/bao-tang-dan-toc-hoc-crop-1651584320570.png" alt="" data-transition="slideInLeft" />
                         <img src="{{theme_path}}/assets/images/BaoTangDanTocHoc_foody-mobile-2.png"  alt="" data-transition="slideInLeft"/>
-                        <img src="{{theme_path}}/assets/images/bao-tang-dan-toc-hoc-crop-1651584320570.png"  alt="" data-transition="slideInLeft" />
+                        <img src="{{theme_path}}/assets/images/kien-truc-o-bao-tang-dan-toc-hoc.png"  alt="" data-transition="slideInLeft" />
                     </div>
                 </div>
             </div>
