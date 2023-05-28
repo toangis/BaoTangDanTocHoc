@@ -50,21 +50,19 @@ $(function(){
           }
         }
     });
-    document.addEventListener("DOMContentLoaded", function(){
-        
-      });
 })( jQuery );
 
 //Slide ảnh
 $(window).load(function () {
     $('#slider').nivoSlider({
         effect:'random',
-        boxCols: 8,
-        boxRows: 4,
+        boxCols: 3,
+        boxRows: 3,
         animSpeed: 500,
+        pauseTime: 6000,
         directionNav:true,
         controlNav:true,
-        controlNavThumbs:false,
+        controlNavThumbs:true,
         prevText:'Prev',
         nextText:'Next',
         randomStart:false,
