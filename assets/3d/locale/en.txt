@@ -1,0 +1,13 @@
+#: locale=en
+
+## Tour
+
+### Description
+
+### Title
+tour.name = Banner
+
+## Media
+
+### Title
+panorama_037A1C1C_094F_0FBF_4195_2B7B8EBEB9B7.label = copy

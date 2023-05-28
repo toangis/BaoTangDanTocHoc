@@ -1,0 +1,60 @@
+<div class="row">
+    <div class="col-lg-12">
+        <h1>Cấu hình theme</h1>
+    </div>
+</div><!-- /.row -->
+<div class="panel panel-primary">
+    <!-- Default panel contents -->
+    <div class="panel-heading">
+        <div class="pull-right">
+            <a ui-sref="list" class="btn btn-primary"><span class="fa fa-list"></span> Danh sách</a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="panel-body">
+        <form role="form" name="form_option">
+            <h2><span class="lang-sm lang-lbl" lang="{[{ vm.current_lang }]}"></span></h2>
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-xs-9">
+                    <div class="form-group">
+                        <label class="control-label">Tiêu đề </label>
+                        <input ng-repeat="lang in vm.languages" ng-if="lang == vm.current_lang" type="text" class="form-control" data-ng-model="vm.option.header_title[lang]">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Ảnh homepage</label>
+                        <div class="input-group">
+                            <input ng-repeat="lang in vm.languages" ng-if="lang == vm.current_lang" type="text" class="form-control" data-ng-model="vm.option.home_bg_image[lang][0]">
+                            <span class="input-group-btn">
+        <button class="btn btn-default" type="button" ng-click="vm.popupFile('image','home_bg_image')">Chọn ảnh</button>
+      </span>
+
+
+                        </div>
+                        <img class="img-responsive" width="100" ng-repeat="img in vm.option.home_bg_image[vm.current_lang]" ng-src="{[{ img }]}" />
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-3">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Ngôn ngữ</div>
+
+                        <div class="panel-wrapper collapse in">
+                            <div class="panel-body">
+                                <div ng-repeat="lang in vm.languages">
+                                    <label> <span class="lang-sm lang-lbl" lang="{[{ lang }]}"></span> <i class="fa fa-pencil" ng-click="vm.setLang(lang)"></i></label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="pull-right"><button type="submit" class="btn btn-primary" ng-click="vm.save()" ng-disabled="!form_option.$valid"><span class="fa fa-check"></span> Lưu lại</button></div>
+        </form>
+    </div>
+    <div class="panel-footer">
+        <!-- We'll also add some navigation: -->
+        <pre>{[{ vm.option | json }]}</pre>
+        <a ui-sref="list">Quay lại</a>
+    </div>
+</div>
