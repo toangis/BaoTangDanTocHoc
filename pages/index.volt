@@ -77,13 +77,12 @@
                                 <li>
                                     <figure><img src="{{ theme_path }}/assets/images/icon02.png" alt="Image">
                                     </figure>
-                                    <a href="/{{ language }}/c/category-59/ve-va-le-phi-p1.html">
+                                    <a>
                                         {{ render_widget('post-listing',['catalog':'category','category':[308],
                                         'limit':1],['viewsDir':
                                         widgets_volt,'view':'index/tham-quan']) }}
                                     </a>
-                                    
-
+                                    <a href="/{{ language }}/c/category-59/ve-va-le-phi-p1.html" class="veDetail"><img class="btn-more-custom" src="/modules/frontend/themes/vme/assets/images/vi/xt.png"></a>
                                     <!-- end content -->
                                 </li>
                                 <li>

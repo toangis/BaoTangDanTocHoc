@@ -183,6 +183,13 @@
   height: 320px;
   object-fit: cover;
 }
+.veDetail img{
+  display: block;
+  float: left;
+  position: relative;
+  left: 220px;
+  bottom: 86px;
+}
 
 html,
 body {
