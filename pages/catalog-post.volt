@@ -11,10 +11,10 @@
                     <p>{{ render_widget('breadcrumb',['id':category_id[0]],['viewsDir': widgets_volt,'view':'breadcrumb-1']) }}</p>
                 </div>
                 <div id="slider" class="nivoSlider">
-                     <img src="{{theme_path}}/assets/images/bao-tang-dan-toc-hoc-crop-1651584320570.png" alt="" data-transition="slideInLeft" />
+                    <!--<img src="{{theme_path}}/assets/images/bao-tang-dan-toc-hoc-crop-1651584320570.png" alt="" data-transition="slideInLeft" />
                     <img src="{{theme_path}}/assets/images/BaoTangDanTocHoc_foody-mobile-2.png"  alt="" data-transition="slideInLeft"/>
-                    <img src="{{theme_path}}/assets/images/kien-truc-o-bao-tang-dan-toc-hoc.png"  alt="" data-transition="slideInLeft" /> 
-                    <!--{{ render_widget('slide',['ul':false],['viewsDir': widgets_volt,'view':'top-slide']) }}-->
+                    <img src="{{theme_path}}/assets/images/kien-truc-o-bao-tang-dan-toc-hoc.png"  alt="" data-transition="slideInLeft" /> -->
+                    {{ render_widget('slide',['ul':false],['viewsDir': widgets_volt,'view':'top-slide']) }}
                 </div>      
             </div>
         </div>
