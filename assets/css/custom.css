@@ -179,6 +179,10 @@
 .nivo-main-image{
   max-height: 850px;
 }
+.subcat img{
+  height: 320px;
+  object-fit: fill;
+}
 
 html,
 body {
