@@ -67,8 +67,12 @@ $(window).load(function () {
         nextText:'Next',
         randomStart:false,
         slices: 3,
+        afterLoad: DisplayTreeMenu()
     });
 });
+function DisplayTreeMenu(){
+    $("#treeMenu").css("display","block");
+}
 
 // var swiper = new Swiper("#mySwiper", {
 //     spaceBetween: 30,
