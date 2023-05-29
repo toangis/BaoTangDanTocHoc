@@ -82,7 +82,7 @@
                                         'limit':1],['viewsDir':
                                         widgets_volt,'view':'index/tham-quan']) }}
                                     </a>
-                                    <a href="/{{ language }}/c/category-59/ve-va-le-phi-p1.html" class="veDetail"><img class="btn-more-custom" src="/modules/frontend/themes/vme/assets/images/vi/xt.png"></a>
+                                    <a href="/{{ language }}/c/category-59/ve-va-le-phi-p1.html" class="veDetail"><img class="btn-more-custom" src="{{ theme_path }}/assets/images/{{ language }}/xt.png"></a>
                                     <!-- end content -->
                                 </li>
                                 <li>
