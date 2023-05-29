@@ -176,6 +176,9 @@
   padding-bottom: 37%;
   position: relative;
 }
+.nivo-main-image{
+  max-height: 850px;
+}
 
 html,
 body {

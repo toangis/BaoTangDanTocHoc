@@ -188,7 +188,8 @@
                                 data-src="{{ theme_path }}/assets/images/trungbay3.jpg" alt="Image">
                             </figure>
                             <div class="text-content ntrungbay">
-                                <h6>{{ t('trungbayao') }}</h6>
+                                <!--<h6>{{ t('trungbayao') }}</h6>-->
+                                <h6>Trưng bày kỹ thuật số</h6>
                                 <p>{{ t('trungbay3') }}</p>
                             </div>
                         </a>

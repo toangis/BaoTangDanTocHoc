@@ -8,7 +8,8 @@
                     </li>
                     <li><a href="#"><img src="{{ theme_path }}/assets/images/icon/letter.png">
                             information@vme.org.vn</a></li>
-                    <li><a href="#"><img src="{{ theme_path }}/assets/images/icon/map.png"> {{ t('diachibaotang') }}</a>
+                    <li><!--<a href="#"><img src="{{ theme_path }}/assets/images/icon/map.png"> {{ t('diachibaotang') }}</a>-->
+                        <a href="/{{ language }}/c/category-58/den-voi-bao-tang-p1.html""><img src="{{ theme_path }}/assets/images/icon/map.png"> Số 1, Nguyễn Văn Huyên, Cầu Giấy, Hà Nội</a>
                     </li>
                 </ul>
             </div>
