@@ -169,6 +169,9 @@
 #masthead .no-active{
   display: none;
 }
+#wrapper .no-active{
+  display: none !important;
+}
 .carousel-item {
   background-size: cover;
   background-repeat: no-repeat;
@@ -188,6 +191,43 @@
   position: relative;
   left: 220px;
   bottom: 86px;
+}
+#nhomTinTuc .slider {
+  width: 100%;
+  margin: 0;
+  height: inherit;
+  overflow: inherit;
+}
+#nhomTinTuc .slick-prev:before, #nhomTinTuc .slick-next:before{
+  font-size:26px;
+}
+#nhomTinTuc .slick-slide {
+margin: 0px 20px;
+}
+#nhomTinTuc .slick-slide img {
+width: 100%;
+}
+#nhomTinTuc .slick-prev:before,
+#nhomTinTuc .slick-next:before {
+color: black;
+}
+#nhomTinTuc .slick-prev{
+  left: -15px;
+  top: 30%;
+}
+#nhomTinTuc .slick-next {
+  right: -15px;
+  top: 30%;
+}
+#nhomTinTuc .slick-slide {
+transition: all ease-in-out .3s;
+opacity: .2;
+}
+#nhomTinTuc .slick-active {
+opacity: 1;
+}
+#nhomTinTuc .slick-current {
+opacity: 1;
 }
 
 html,

@@ -106,7 +106,7 @@
         </section>
         <!-- end content-section -->
         <section class="content-section">
-            <div class="container">
+            <div class="container" id="nhomTinTuc">
                 <div class="row justify-content-center" style="justify-content: left !important; margin-bottom: 100px;">
                     <figure style="width:100%;display:block;padding-bottom: 20px;text-align: center!important;">
                         <img src="{{ theme_path }}/assets/images/logo_green.png" alt="Image"
@@ -135,7 +135,7 @@
                     <!-- end col-9 -->
                 </div>
                 <!-- end row -->
-                {{ render_widget('post-listing',['catalog':'category','category':[130], 'limit':3],['viewsDir':
+                {{ render_widget('post-listing',['catalog':'category','category':[130], 'limit':9],['viewsDir':
                 widgets_volt,'view':'index/post-listing-1']) }}
 
                 <!-- end row -->

@@ -13,6 +13,7 @@
 <script src="{{ theme_path }}/assets/js/owl-carousel/owl.carousel.min.js"></script>
 <script src="{{ theme_path }}/assets/js/owl-carousel/owl.carousel.thumb.js"></script>
 <script src="{{ theme_path }}/assets/js/jquery.nivo.slider.js"></script>
+<script src="{{ theme_path }}/assets/js/slick.js"></script>
 <script src="{{ theme_path }}/assets/js/custom.js"></script>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61cddbbbb0b851d5"></script>

@@ -8,5 +8,7 @@
 <link rel="stylesheet" href="{{ theme_path }}/assets/css/nivo-slider.css">
 <link rel="stylesheet" href="{{ theme_path }}/assets/js/owl-carousel/owl.carousel.css">
 <link rel="stylesheet" href="{{ theme_path }}/assets/js/owl-carousel/owl.theme.css">
+<link rel="stylesheet" href="{{ theme_path }}/assets/css/slick.css">
+<link rel="stylesheet" href="{{ theme_path }}/assets/css/slick-theme.css">
 <link rel="stylesheet" href="{{ theme_path }}/assets/css/style.css">
 <link rel="stylesheet" href="{{ theme_path }}/assets/css/custom.css">

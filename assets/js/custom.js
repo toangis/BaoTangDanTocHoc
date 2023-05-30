@@ -20,37 +20,43 @@ $(function(){
 
 });
 
-
+//fixed menu
 (function( $ ){
     $(window).scroll(function() {
-        var headerHeight = document.querySelector('.top-header').offsetHeight;
+        //var headerHeight = document.querySelector('.top-header').offsetHeight;
+        var scrollY = $(window).scrollTop();
+        if (scrollY > 140){
+            $("#treeMenu").addClass('no-active');
+        }
+        else{
+            $("#treeMenu").removeClass('no-active');
+        }
         if($(window).width() >= 992)
         {
-          if ( window.scrollY > headerHeight) {
+          if ( window.scrollY > 0) {
             $("#masthead").addClass('fixed-header');
             $(".navbar").css("background-color","rgba(255, 255, 255, 1)");
             $(".navbar .site-menu ul.submenu").css("background-color","rgba(255, 255, 255, 1)");
             $(".navbar .site-menu ul.submenu").css("box-shadow","0 -3px 10px rgba(0, 0, 0, 0.2)");
             $("#masthead .logo").addClass('no-active');
-            $("#masthead .top-bar").addClass('no-active');
+            $("#masthead .top-bar").addClass('no-active');  
           }else {
             $("#masthead").removeClass('fixed-header');
             $(".navbar").css("background-color","rgba(255, 255, 255, 0.7)");
             $(".navbar .site-menu ul.submenu").css("background-color","rgba(255, 255, 255, 0.7)");
             $("#masthead .logo").removeClass('no-active');
-            $("#masthead .top-bar").removeClass('no-active');
-          }
-        } else {
-          var bottomheaderHeight = document.querySelector('.bottom-header').offsetHeight;
-          var mobileheaderHeight =  headerHeight + bottomheaderHeight;
-          if ( window.scrollY > mobileheaderHeight ) {
-            document.getElementById('masthead').classList.add('fixed-header');
-          }else {
-            document.getElementById('masthead').classList.remove('fixed-header');
+            $("#masthead .top-bar").removeClass('no-active');      
           }
         }
     });
 })( jQuery );
+
+try{
+    if ($("#treeMenu h4").text() != "" && $("#treeMenu h4").text() != null) document.title = $("#treeMenu h4").text();
+}
+catch{
+    document.title = "Bảo tàng Dân tộc học Việt Nam";
+}
 
 //Slide ảnh
 $(window).load(function () {
@@ -73,6 +79,43 @@ $(window).load(function () {
 function DisplayTreeMenu(){
     $("#treeMenu").css("display","block");
 }
+//Auto Slide tin tức
+$(".regular").slick({
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    autoplay: true,
+    autoplaySpeed: 3500,
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+});
 
 // var swiper = new Swiper("#mySwiper", {
 //     spaceBetween: 30,
