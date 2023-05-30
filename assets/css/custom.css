@@ -11,7 +11,7 @@
 }
 .ntrungbay{
   margin-top:10px;
-  min-height: 300px;
+  min-height: 200px;
 }
 /*.jcarousel-wrapper{
   margin: 0;
@@ -194,7 +194,7 @@
 }
 #nhomTinTuc .slider {
   width: 100%;
-  margin: 0;
+  margin-bottom: 15px;
   height: inherit;
   overflow: inherit;
 }
@@ -228,6 +228,39 @@ opacity: 1;
 }
 #nhomTinTuc .slick-current {
 opacity: 1;
+}
+.nGiaoDuc{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 30%;
+  z-index: 2;
+}
+.nGiaoDuc h3{
+  width: 100%;
+  font-size: 21px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-shadow: -1.5px -1.5px 0 #000, 1.5px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  padding-bottom: 20px;
+}
+.nGiaoDuc a p:hover{
+  color: #ee850c;
+  border: 3px solid #ee850c;
+  transition:all 1s ease;
+}
+.nGiaoDuc a p{
+  width: 30%;
+  font-size: 23px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 35%;
+  text-align: center;
+  border-radius: 46px;
+  padding: 5px;
+  border: 3px solid #fff8f8;
+  text-shadow: -1.5px -1.5px 0 #000, 1.5px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 html,
@@ -609,8 +642,8 @@ body {
 }
 
 .education-slider-images {
-  width: 70%;
-  padding-top: 50%;
+  width: 100%;
+  padding-top: 100%;
   background-position: center;
   background-size: cover;
 }
@@ -712,6 +745,19 @@ body {
   .navbar .logo a img,
   .right-bar {
     height: 75px;
+  }
+  .nGiaoDuc h3{
+    font-size: 13px;
+    padding-bottom: 2px;
+  }
+  .nGiaoDuc a p{
+    font-size: 14px;
+    border: 1px solid #fff8f8;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .pb-0 .justify-content-center{
+    padding-bottom: 20px;
   }
   .navbar li a {
     font-size: 19px;

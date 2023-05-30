@@ -143,7 +143,7 @@
             <!-- end container -->
         </section>
         <!-- Trưng bày------------------------------------------------------------------------------------------------------------------->
-        <section class="content-section no-bottom-spacing bottom-white" data-background="#fffbf7">
+        <section class="content-section no-bottom-spacing bottom-white sTrungBay" data-background="#fffbf7">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12">
@@ -296,160 +296,61 @@
             </div>
             <!-- end container -->
         </section>
-        <!-- end content-section -->
-        <section class="content-section pb-0" style="display: none;">
+        <section class="content-section pb-0">
             <div class="container">
-                <div class="row g-0 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="art-slider">
-                            <div class="titles">
-                                <!-- <h6>Trải nghiệm</h6> -->
-                                <div class="flex-row" style="display: flex;">
-                                    <img src="{{ theme_path }}/assets/images/logo_green.png" alt="Image"
-                                        style="height: 80px; margin-right: 20px;">
-                                    <h2>{{ t('hoatdonggiaoduc') }}</h2>
-                                </div>
-
-                            </div>
-                            <!-- end titles -->
-                            <div class="swiper-container art-slider-content">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide"><span></span>
-                                        <h3>{{ t('nhatruong') }}</h3>
-                                    </div>
-                                    <!-- end swiper-slide -->
-                                    <div class="swiper-slide"><span></span>
-                                        <h3>{{ t('giadinh') }}</h3>
-                                    </div>
-                                    <div class="swiper-slide"><span></span>
-                                        <h3>{{ t('trinhdien') }}</h3>
-                                    </div>
-                                    <div class="swiper-slide"><span></span>
-                                        <h3>{{ t('sukienthuongnien') }}</h3>
-                                    </div>
-                                    <div class="swiper-slide"><span></span>
-                                        <h3>{{ t('sukienkhongthuongnien') }}</h3>
-                                    </div>
-                                    <div class="swiper-slide"><span></span>
-                                        <h3>{{ t('phongkhamphadanhchotreem') }}</h3>
-                                    </div>
-                                    <div class="swiper-slide"><span></span>
-                                        <h3>{{ t('phongdaphuongtien') }}</h3>
-                                    </div>
-                                    <div class="swiper-slide"><span></span>
-                                        <h3>{{ t('phongchieuphim') }}</h3>
-                                    </div>
-                                    <!-- end swiper-slide -->
-                                </div>
-                                <!-- end swiper-wrapper -->
-                            </div>
-                            <!-- end art-slider-content -->
+                <div class="row justify-content-center" style="padding-bottom: 50px;">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <figure><img src="{{ theme_path }}/assets/images/logo_green.png" alt="Image"></figure>
+                            <h2>{{ t('hoatdonggiaoduc') }}<br>
+                            </h2>
                         </div>
-                        <!-- end art-slider -->
+                        <!-- end section-title -->
                     </div>
-                    <!-- end col-6 -->
-                    <div class="col-lg-6">
-                        <div class="art-slider" data-scroll data-scroll-speed="1">
-                            <div class="swiper-container art-slider-images">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="education-slider-images"
-                                            style="background-image: url('{{ theme_path }}/assets/images/hoatdong/phongchieuphim.jpg');">
-
-                                        </div>
-                                        <div>
-                                            <a href=""><img class="btn-more-custom"
-                                                    src="{{ theme_path }}/assets/images/{{ language }}/xt.png"></a>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="education-slider-images"
-                                            style="background-image: url('{{ theme_path }}/assets/images/hoatdong/nhatruong.jpg');">
-                                        </div>
-                                        <div>
-                                            <a href="/{{ language }}/c/category-88/nha-truong-p1.html">
-                                                <img class="btn-more-custom"
-                                                    src="{{ theme_path }}/assets/images/{{ language }}/xt.png">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="education-slider-images"
-                                            style="background-image: url('{{ theme_path }}/assets/images/hoatdong/giadinh.jpg');">
-                                        </div>
-                                        <div>
-                                            <a href="/{{ language }}/c/category-89/gia-dinh-p1.html">
-                                                <img class="btn-more-custom"
-                                                    src="{{ theme_path }}/assets/images//{{ language }}/xt.png">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="education-slider-images"
-                                            style="background-image: url('{{ theme_path }}/assets/images/hoatdong/bieudien.jpg');">
-                                        </div>
-                                        <div>
-                                            <a href="/{{ language }}/c/category-90/trinh-dien-p1.html">
-                                                <img class="btn-more-custom"
-                                                    src="{{ theme_path }}/assets/images//{{ language }}/xt.png">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="education-slider-images"
-                                            style="background-image: url('{{ theme_path }}/assets/images/hoatdong/sukien.jpg');">
-                                        </div>
-                                        <div>
-                                            <a href="/{{ language }}/c/category-91/su-kien-thuong-nien-p1.html">
-                                                <img class="btn-more-custom"
-                                                    src="{{ theme_path }}/assets/images//{{ language }}/xt.png">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="education-slider-images"
-                                            style="background-image: url('{{ theme_path }}/assets/images/hoatdong/sukienkhongthuongnien.jpg');">
-                                        </div>
-                                        <div>
-                                            <a href="/{{ language }}/c/category-92/su-kien-khong-thuong-nien-p1.html">
-                                                <img class="btn-more-custom"
-                                                    src="{{ theme_path }}/assets/images//{{ language }}/xt.png">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="education-slider-images"
-                                            style="background-image: url('{{ theme_path }}/assets/images/hoatdong/khampha.jpg');">
-                                        </div>
-                                        <div>
-                                            <a
-                                                href="/{{ language }}/c/category-93/phong-kham-pha-danh-cho-tre-em-p1.html">
-                                                <img class="btn-more-custom"
-                                                    src="{{ theme_path }}/assets/images//{{ language }}/xt.png">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="education-slider-images"
-                                            style="background-image: url('{{ theme_path }}/assets/images/hoatdong/daphuongtien.jpg');">
-                                        </div>
-                                        <div>
-                                            <a href="/{{ language }}/c/category-94/phong-da-phuong-tien-p1.html">
-                                                <img class="btn-more-custom"
-                                                    src="{{ theme_path }}/assets/images//{{ language }}/xt.png">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <!-- end swiper-slide -->
-                                </div>
-                                <!-- end swiper-wrapper -->
-                            </div>
-                            <!-- end art-slider-images -->
+                    <div class="col-6" style="position: relative;padding: 25px;">
+                        <div class="education-slider-images"
+                            style="background-image: url('{{ theme_path }}/assets/images/hoatdong/phongchieuphim.jpg');">
                         </div>
-                        <!-- end art-slider -->
+                        <div class="nGiaoDuc">
+                            <h3>{{ t('nhatruong') }}</h3>
+                            <a href="/{{ language }}/c/category-88/nha-truong-p1.html">
+                                <p>Xem chi tiết</p>
+                            </a>
+                        </div>
                     </div>
-                    <!-- end col-6 -->
+                    <div class="col-6" style="position: relative;padding: 25px;">
+                        <div class="education-slider-images"
+                            style="background-image: url('{{ theme_path }}/assets/images/hoatdong/giadinh.jpg');">
+                        </div>
+                        <div class="nGiaoDuc">
+                            <h3>{{ t('giadinh') }}</h3>
+                            <a href="/{{ language }}/c/category-89/gia-dinh-p1.html">
+                                <p>Xem chi tiết</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6" style="position: relative;padding: 25px;">
+                        <div class="education-slider-images"
+                            style="background-image: url('{{ theme_path }}/assets/images/hoatdong/bieudien.jpg');">
+                        </div>
+                        <div class="nGiaoDuc">
+                            <h3>{{ t('trinhdien') }}</h3>
+                            <a href="/{{ language }}/c/category-90/trinh-dien-p1.html">
+                                <p>Xem chi tiết</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6" style="position: relative;padding: 25px;">
+                        <div class="education-slider-images"
+                            style="background-image: url('{{ theme_path }}/assets/images/hoatdong/nhatruong.jpg');">
+                        </div>
+                        <div class="nGiaoDuc">
+                            <h3>{{ t('sukienthuongnien') }}</h3>
+                            <a href="/{{ language }}/c/category-91/su-kien-thuong-nien-p1.html">
+                                <p>Xem chi tiết</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <!-- end row -->
             </div>

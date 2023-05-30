@@ -86,7 +86,7 @@ $(".regular").slick({
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: true,
-    autoplaySpeed: 3500,
+    autoplaySpeed: 3000,
     responsive: [
         {
           breakpoint: 1324,
@@ -98,14 +98,14 @@ $(".regular").slick({
           }
         },
         {
-          breakpoint: 1000,
+          breakpoint: 800,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2
           }
         },
         {
-          breakpoint: 700,
+          breakpoint: 500,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1
