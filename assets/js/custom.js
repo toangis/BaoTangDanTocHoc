@@ -89,7 +89,7 @@ $(".regular").slick({
     autoplaySpeed: 3500,
     responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1324,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 3,
@@ -98,14 +98,14 @@ $(".regular").slick({
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 1000,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 700,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1
@@ -145,7 +145,7 @@ function handleClick(e)
 var lazyLoadInstance = new LazyLoad({
     // Your custom settings go here
     callback_loaded: function(el){
-        console.info('Loaded', el);
+        //console.info('Loaded', el);
         window.dispatchEvent(new Event('resize'));
 
     },
