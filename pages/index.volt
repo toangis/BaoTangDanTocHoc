@@ -3,7 +3,7 @@
 {% block content %}
 
 <div class="smooth-scroll1">
-    <div class="section-wrapper"> <!--data-scroll-section-->
+    <div class="section-wrapper" data-scroll-section > <!--data-scroll-section-->
         <!-- end search-box -->
         {{ partial('partials/navbar') }}
 
@@ -105,7 +105,7 @@
             <!-- end container -->
         </section>
         <!-- end content-section -->
-        <section class="content-section">
+        <section class="content-section" >
             <div class="container" id="nhomTinTuc">
                 <div class="row justify-content-center" style="justify-content: left !important; margin-bottom: 100px;">
                     <figure style="width:100%;display:block;padding-bottom: 20px;text-align: center!important;">
@@ -296,7 +296,7 @@
             </div>
             <!-- end container -->
         </section>
-        <section class="content-section pb-0">
+        <section class="content-section pb-0" style="margin-top:-100px;">
             <div class="container">
                 <div class="row justify-content-center" style="padding-bottom: 50px;">
                     <div class="col-12">
