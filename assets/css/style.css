@@ -1394,6 +1394,7 @@ button[type="submit"] i {
 
 .bottom-white {
   position: relative;
+  min-height: 880px;
 }
 .bottom-white:before {
   content: "";
@@ -2319,6 +2320,7 @@ button[type="submit"] i {
   padding-bottom: 50px;
   opacity: 0.7;
   position: relative;
+  margin-bottom: 110px;
   /* padding-left: 30px; */
 }
 /* .text-content p:before {
@@ -2331,9 +2333,6 @@ button[type="submit"] i {
   left: 0;
   top: 6px;
 } */
-.text-content p:last-child {
-  margin-bottom: 0;
-}
 
 /* ART SLIDER */
 .art-slider {

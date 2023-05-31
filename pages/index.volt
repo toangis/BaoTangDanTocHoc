@@ -145,7 +145,7 @@
         <!-- Trưng bày------------------------------------------------------------------------------------------------------------------->
         <section class="content-section no-bottom-spacing bottom-white sTrungBay" data-background="#fffbf7">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row"> <!--justify-content-center-->
                     <div class="col-12">
                         <div class="section-title text-center">
                             <figure><img src="{{ theme_path }}/assets/images/logo_green.png" alt="Image"></figure>
