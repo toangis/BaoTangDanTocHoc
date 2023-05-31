@@ -247,14 +247,14 @@ opacity: 1;
 }
 .nGiaoDuc a p:hover{
   color: #21bb21;
-  font-size: 25px;
+  font-size: 21px;
   border: 3px solid #21bb21;
   transition:all 0.5s ease;
 }
 .nGiaoDuc a p{
   font-family: sans-serif;
   width: 30%;
-  font-size: 23px;
+  font-size: 19px;
   font-weight: bold;
   color: #fff;
   margin-left: 35%;
@@ -870,17 +870,17 @@ body {
     width: 185px;
   }
   .nGiaoDuc h3{
-    font-size: 25px;
+    font-size: 24px;
     padding-bottom: 2px;
   }
   .nGiaoDuc a p{
-    font-size: 20px;
+    font-size: 17px;
     border: 1px solid #fff8f8;
     width: 30%;
     margin-left: 35%;
   }
   .nGiaoDuc a p:hover{
-    font-size: 21px;
+    font-size: 19px;
   }
   .navbar .logo a img,
   .right-bar {
@@ -908,17 +908,17 @@ body {
     margin-right: 30px;
   }
   .nGiaoDuc h3{
-    font-size: 16px;
+    font-size: 15px;
     padding-bottom: 2px;
   }
   .nGiaoDuc a p{
-    font-size: 14px;
+    font-size: 11px;
     border: 1px solid #fff8f8;
     width: 55%;
     margin-left: 23%;
   }
   .nGiaoDuc a p:hover{
-    font-size: 15px;
+    font-size: 13px;
   }
   .navbar {
     padding: 20px 2%;
